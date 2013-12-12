@@ -16,7 +16,7 @@ tagline: here meet cats
             <span>{{ post.date | date_to_string }}</span> &raquo;
             <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
         </li>
-        {{ post.content | strip_html | truncatewords:75}}<br>
+        {{ post.content | strip_html | truncatewords:32}}<br>
         <a href="{{ post.url }}">Read more...</a><br><br>
     {% endfor %}
 </ul>
