@@ -30,7 +30,7 @@ of the capacitor every 1/64 seconds.
 
 *Capacitive Touch Program* - [Import program to mbed online compiler](https://mbed.org/compiler/#import:/users/yihui/code/Arch_Capacitive_Touch/;platform:Seeeduino-Arch)
 
-~~~{.cpp}
+~~~ cpp
 #include "mbed.h"
  
 DigitalOut led(LED1);
